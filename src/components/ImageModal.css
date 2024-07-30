@@ -1,0 +1,35 @@
+.image-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-start; 
+  }
+  
+  .image-modal {
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 40%; 
+    max-height: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .image-modal img {
+    max-width: 100%;
+    max-height: 80vh;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
